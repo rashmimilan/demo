@@ -24,14 +24,13 @@
     }
 },
 required: ["ProductID", "ProductName", "CategoryID"],
-  dependencies: {
-    CategoryID: {
+dependencies: {
+  CategoryID: {
       properties: {
         CategoryName: { type: "string", title: "Category Name" }
       },
       required: ["CategoryName"]
     }
-  }
-},
+ },
   "profile": { "name": "typicode" }
 }
