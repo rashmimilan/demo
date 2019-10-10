@@ -6,9 +6,9 @@
   "required": ["title"],
   "liveValidate": true,
   "properties": {
-    "ProductID": { type: "string", title: "Product Id", default: "" },
-    "ProductName": { type: "string", title: "Product Name", default: "" },
-    "SupplierID": { type: "integer", title: "Supplier ID", default: "" },
+    "ProductID": { "type": "string", "title": "Product Id", "default": "" },
+    "ProductName": { "type": "string", "title": "Product Name", "default": "" },
+    "SupplierID": { "type": "integer", "title": "Supplier ID", "default": "" },
     "CategoryID": {
     "type": "array",
     "title": "Category ID",
