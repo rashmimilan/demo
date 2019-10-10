@@ -1,5 +1,5 @@
 {
-  ["title": "Products",
+  "title": "Products",
   "type": "object",
   "required": ["title"],
   "liveValidate": true,
@@ -25,7 +25,7 @@
       },
       "required": ["CategoryName"]
     }
-  }]
+  }
   ,
   "profile": { "name": "typicode" }
 }
