@@ -1,6 +1,5 @@
 {
 [
-  {
     "department": [
       {
         "id": 1,
@@ -169,7 +168,6 @@
         "postId": 1
       }
     ]
-  }
 ],
 "profile": {
     "name": "typicode"
