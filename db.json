@@ -1,5 +1,6 @@
 {
   [
+  {
   title: "Products",
   type: "object",
   required: ["title"],
@@ -27,9 +28,7 @@ required: ["ProductID", "ProductName", "CategoryID"],
       required: ["CategoryName"]
     }
   }
-  ]
-  ,
-  "profile": {
-    "name": "typicode"
   }
+  ],
+  "profile": { "name": "typicode" }
 }
