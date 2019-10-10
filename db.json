@@ -3,6 +3,35 @@
   "type": "object",
   "required": ["title"],
   "liveValidate": true,
-} ,
+},
+{
+  title: "Products",
+  type: "object",
+  required: ["title"],
+  liveValidate: true,
+  properties: {
+    ProductID: { type: "string", title: "Product Id", default: "" },
+    ProductName: { type: "string", title: "Product Name", default: "" },
+    SupplierID: { type: "integer", title: "Supplier ID", default: "" },
+    CategoryID: {
+    type: "array",
+    title: "Category ID",
+    items: {
+    type: "integer",
+    enum: [1, 2, 3, 4]
+    },
+    uniqueItems:true
+    }
+},
+required: ["ProductID", "ProductName", "CategoryID"],
+  dependencies: {
+    CategoryID: {
+      properties: {
+        CategoryName: { type: "string", title: "Category Name" }
+      },
+      required: ["CategoryName"]
+    }
+  }
+},
   "profile": { "name": "typicode" }
 }
