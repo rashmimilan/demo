@@ -1,11 +1,177 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+  "quality": [
+  {
+    "department": [
+      {
+        "id": 1,
+        "title": "Post 1"
+      },
+      {
+        "id": 2,
+        "title": "Post 2"
+      },
+      {
+        "id": 3,
+        "title": "Post 3"
+      }
+    ],
+    "grade": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "product": [
+      {
+        "id": 1,
+        "title": "Post 1"
+      },
+      {
+        "id": 2,
+        "title": "Post 2"
+      },
+      {
+        "id": 3,
+        "title": "Post 3"
+      }
+    ],
+    "consignee": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "customer": [
+      {
+        "id": 1,
+        "title": "Post 1"
+      },
+      {
+        "id": 2,
+        "title": "Post 2"
+      },
+      {
+        "id": 3,
+        "title": "Post 3"
+      }
+    ],
+    "version": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "valid_from": [
+      {
+        "id": 1,
+        "title": "Post 1"
+      },
+      {
+        "id": 2,
+        "title": "Post 2"
+      },
+      {
+        "id": 3,
+        "title": "Post 3"
+      }
+    ],
+    "valid_to": [
+      {
+        "id": 1,
+        "title": "Post 1"
+      },
+      {
+        "id": 2,
+        "title": "Post 2"
+      },
+      {
+        "id": 3,
+        "title": "Post 3"
+      }
+    ],
+    "in_use": [
+      {
+        "id": 1,
+        "title": "Post 1"
+      },
+      {
+        "id": 2,
+        "title": "Post 2"
+      },
+      {
+        "id": 3,
+        "title": "Post 3"
+      }
+    ],
+    "template": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "clear_template": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "reference": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "updated": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "some comment",
+        "postId": 1
+      }
+    ]
   }
+],
+"profile": {
+    "name": "typicode"
+}
 }
