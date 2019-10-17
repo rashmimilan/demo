@@ -1,0 +1,48 @@
+{
+   "table": 
+    [
+    {
+      "Property": "E1_BOD",
+       "IV":"false",
+      "Short_Name": "EFFl_1_COD",
+       "Unit": "mg/L",
+       "Target": "this,there",
+       "LCL":"",
+       "UTL":"",
+       "LTL":"",
+       "UTL":"",
+       "MP": "false",
+       "M": "true"
+    },
+    {
+      "Property": "E1_COD",
+       "IV":"false",
+      "Short_Name": "EFF_1_COD",
+       "Unit": "mg/L",
+       "Target": "this,that,here,there",
+       "LCL":"",
+       "UTL":"",
+       "LTL":"",
+       "UTL":"",
+       "MP": "false",
+       "M": "true"
+    },
+     {
+      "Property": "E1_LOD",
+       "IV":"false",
+      "Short_Name": "EFF1_1_LOD",
+       "Unit": "mg/L",
+       "Target": "here,there",
+       "LCL":"",
+       "UTL":"",
+       "LTL":"",
+       "UTL":"",
+       "MP": "true",
+       "M": "false"
+    }
+
+    ],
+"profile": {
+ "name": "typicode"
+ }
+}
