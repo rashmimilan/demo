@@ -97,12 +97,12 @@
   }
   ],
  params1: [ 
-    {"Property": true, "IV": false, "Short_Name":true, "Unit":true,"Target":true,"LCL":true,"UTL":true,"LTL":true,"MP":true,"M":true},
-    {"Property": "text", "IV": "checkbox", "Short_Name":"text", "Unit":"text","Target":"singlelistbox","LCL":"text","UTL":"text","LTL":"text","MP":"checkbox","M":"checkbox"}
+    {"Property": true, "IV": false, "ShortName":true, "Unit":true,"Target":true,"LCL":true,"UTL":true,"LTL":true,"MP":true,"M":true},
+    {"Property": "text", "IV": "checkbox", "ShortName":"text", "Unit":"text","Target":"singlelistbox","LCL":"text","UTL":"text","LTL":"text","MP":"checkbox","M":"checkbox"}
  ],
  params2: [ 
-    {"Property": true, "IV": true, "Short_Name":true, "Unit":true,"Target":true,"LCL":true,"UTL":true,"LTL":true,"MP":true,"M":true},
-    {"Property": "text", "IV": "checkbox", "Short_Name":"text", "Unit":"text","Target":"singlelistbox","LCL":"text","UTL":"text","LTL":"text","MP":"checkbox","M":"checkbox"}
+    {"Property": true, "IV": true, "ShortName":true, "Unit":true,"Target":true,"LCL":true,"UTL":true,"LTL":true,"MP":true,"M":true},
+    {"Property": "text", "IV": "checkbox", "ShortName":"text", "Unit":"text","Target":"singlelistbox","LCL":"text","UTL":"text","LTL":"text","MP":"checkbox","M":"checkbox"}
  ],
  "profile": {
  "name": "typicode"
