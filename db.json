@@ -1,7 +1,8 @@
 {
  "table":
     [
-        "details1": [
+        "details1": 
+     [
      {
         "Property": "E1_BOD",
         "IV": "checked",
@@ -48,8 +49,9 @@
         "M": ""
       }
     ],
-    "details2": [
-    {
+    "details2": 
+    [
+     {
     "Property": "E1_BOD",
     "IV": "checked",
     "Short_Name": "EFFl_1_COD",
