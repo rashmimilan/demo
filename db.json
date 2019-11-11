@@ -1,9 +1,11 @@
 {
-    tab1: [
+ "table":
+    [
+        "details1": [
      {
         "Property": "E1_BOD",
         "IV": "checked",
-        "ShortName": "EFFl_1_COD",
+        "Short_Name": "EFFl_1_COD",
         "Unit": "mg/L",
         "Target": "this,there",
         "LCL": "",
@@ -14,7 +16,7 @@
       },{
         "Property": "E1_COD",
         "IV": "",
-        "ShortName": "EFF_1_COD",
+        "Short_Name": "EFF_1_COD",
         "Unit": "mg/L",
         "Target": "this,that,here,there",
         "LCL": "",
@@ -25,7 +27,7 @@
       },{
         "Property": "E1_LOD",
         "IV": "",
-        "ShortName": "EFF1_1_LOD",
+        "Short_Name": "EFF1_1_LOD",
         "Unit": "mg/L",
         "Target": "here,there",
         "LCL": "",
@@ -36,7 +38,7 @@
       },{
         "Property": "E1_MOD",
         "IV": "",
-        "ShortName": "EFF1_1_MOD",
+        "Short_Name": "EFF1_1_MOD",
         "Unit": "mg/L",
         "Target": "there",
         "LCL": "",
@@ -46,7 +48,66 @@
         "M": ""
       }
     ],
- "profile": {
+    "details2": [
+    {
+    "Property": "E1_BOD",
+    "IV": "checked",
+    "Short_Name": "EFFl_1_COD",
+    "Unit": "mg/L",
+    "Target": "this,there",
+    "LCL": "",
+    "UTL": "",
+    "LTL": "",
+    "MP": "",
+    "M": "checked"
+  },
+  {
+    "Property": "E1_COD",
+    "IV": "",
+    "Short_Name": "EFF_1_COD",
+    "Unit": "mg/L",
+    "Target": "this,that,here,there",
+    "LCL": "",
+    "UTL": "",
+    "LTL": "",
+    "MP": "",
+    "M": "checked"
+  },
+  {
+    "Property": "E1_LOD",
+    "IV": "",
+    "Short_Name": "EFF1_1_LOD",
+    "Unit": "mg/L",
+    "Target": "here,there",
+    "LCL": "",
+    "UTL": "",
+    "LTL": "",
+    "MP": "checked",
+    "M": ""
+  }, 
+  {
+    "Property": "E1_MOD",
+    "IV": "",
+    "Short_Name": "EFF1_1_MOD",
+    "Unit": "mg/L",
+    "Target": "there",
+    "LCL": "",
+    "UTL": "",
+    "LTL": "",
+    "MP": "checked",
+    "M": ""
+  }
+  ],
+ "params1": [ 
+    {"Property": true, "IV": false, "Short_Name":true, "Unit":true,"Target":true,"LCL":true,"UTL":true,"LTL":true,"MP":true,"M":true},
+    {"Property": "text", "IV": "checkbox", "Short_Name":"text", "Unit":"text","Target":"singlelistbox","LCL":"text","UTL":"text","LTL":"text","MP":"checkbox","M":"checkbox"}
+ ],
+ "params2": [ 
+    {"Property": true, "IV": true, "Short_Name":true, "Unit":true,"Target":true,"LCL":true,"UTL":true,"LTL":true,"MP":true,"M":true},
+    {"Property": "text", "IV": "checkbox", "Short_Name":"text", "Unit":"text","Target":"singlelistbox","LCL":"text","UTL":"text","LTL":"text","MP":"checkbox","M":"checkbox"}
+ ] 
+},
+"profile": {
  "name": "typicode"
  }
 }
