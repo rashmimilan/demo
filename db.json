@@ -3,7 +3,7 @@
      {
         "Property": "E1_BOD",
         "IV": "checked",
-        "Short_Name": "EFFl_1_COD",
+        "ShortName": "EFFl_1_COD",
         "Unit": "mg/L",
         "Target": "this,there",
         "LCL": "",
@@ -14,7 +14,7 @@
       },{
         "Property": "E1_COD",
         "IV": "",
-        "Short_Name": "EFF_1_COD",
+        "ShortName": "EFF_1_COD",
         "Unit": "mg/L",
         "Target": "this,that,here,there",
         "LCL": "",
@@ -25,7 +25,7 @@
       },{
         "Property": "E1_LOD",
         "IV": "",
-        "Short_Name": "EFF1_1_LOD",
+        "ShortName": "EFF1_1_LOD",
         "Unit": "mg/L",
         "Target": "here,there",
         "LCL": "",
@@ -36,7 +36,7 @@
       },{
         "Property": "E1_MOD",
         "IV": "",
-        "Short_Name": "EFF1_1_MOD",
+        "ShortName": "EFF1_1_MOD",
         "Unit": "mg/L",
         "Target": "there",
         "LCL": "",
@@ -50,7 +50,7 @@
     {
     "Property": "E1_BOD",
     "IV": "checked",
-    "Short_Name": "EFFl_1_COD",
+    "ShortName": "EFFl_1_COD",
     "Unit": "mg/L",
     "Target": "this,there",
     "LCL": "",
@@ -62,7 +62,7 @@
   {
     "Property": "E1_COD",
     "IV": "",
-    "Short_Name": "EFF_1_COD",
+    "ShortName": "EFF_1_COD",
     "Unit": "mg/L",
     "Target": "this,that,here,there",
     "LCL": "",
@@ -74,7 +74,7 @@
   {
     "Property": "E1_LOD",
     "IV": "",
-    "Short_Name": "EFF1_1_LOD",
+    "ShortName": "EFF1_1_LOD",
     "Unit": "mg/L",
     "Target": "here,there",
     "LCL": "",
@@ -86,7 +86,7 @@
   {
     "Property": "E1_MOD",
     "IV": "",
-    "Short_Name": "EFF1_1_MOD",
+    "ShortName": "EFF1_1_MOD",
     "Unit": "mg/L",
     "Target": "there",
     "LCL": "",
